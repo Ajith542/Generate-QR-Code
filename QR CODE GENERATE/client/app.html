@@ -1,0 +1,22 @@
+<!-- QR CODE GENERATOR APPLICATION -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR CODE GENERATOR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>ENTER DATA FOR QR</h2>
+    <textarea class="area" id="qrd" name="qrdata" cols="35" rows="5"></textarea>
+    <button class="submit" onclick="onClickedCreateQRC();" type="button">CREATE MY QR</button>
+    <button id="show" class="submit" onclick="loadQRC();" type="button">SHOW MY QR</button>
+    <div>
+        <img class="qrimage" id="pic" src="img/QRSample.png" width="250" height="200" >
+    </div>
+</form>
+</body>
+</html>

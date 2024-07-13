@@ -1,0 +1,80 @@
+/* STYLING */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.form {
+	max-width: 270px;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 6px auto;
+	padding-left: 150px;
+	z-index: 2;
+	position: initial;
+	float: left;
+} 
+
+h2 {
+	font-size: 18px;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #e4e4e4;
+}
+.area{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 93%;
+  border: 4px solid rgba(140, 129, 238, 0.836);
+  margin: 0 0 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.qrimage{
+  outline: 0;
+  background: #f2f2f2;
+  width: 93%;
+  border: 4px solid rgba(140, 129, 238, 0.836);
+  margin: 110px 0 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.submit{
+  background: #804763f6;
+  width: 93%;
+  border: 4px solid rgba(140, 129, 238, 0.836);
+  color: #e4e4e4;
+  margin: 10px 0 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.img {
+  background: url("img/Dubai.JPG");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size:100% 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body, html {
+  height: 100%;
+}
